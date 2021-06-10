@@ -14,8 +14,8 @@ This project is useful, because instead of the user adding everything up by hand
 2. Unzip the file
 3. Open terminal
 4. Make sure your terminal have intalled gcc or c++ compiler:
-	4-1. If not, try $ sudo apt-get install build-essential
-	4-2. To check gcc version, $gcc -v
+- If not, try $ sudo apt-get install build-essential
+-  To check gcc version, $gcc -v
 5. Locate the unzipped file
 6. type in $ sudo gcc jeolup-hakjeom.c -o jeolup-hakjeom.exe
 7. run jeolup-hakjeom.exe
