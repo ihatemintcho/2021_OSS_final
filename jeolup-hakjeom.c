@@ -89,7 +89,7 @@ void insert_class(int *n, char classes[][SIZE], float credits[], float credits_o
 	printf("\n	Now Entering new class:\n");
 	printf("\n	What is the class' name? (without space) ");
 
-	scnaf("%s", temp_class);
+	scanf("%s", temp_class);
 
 	strcpy(classes[*n], temp_class);
 
@@ -241,7 +241,7 @@ void show_status(int *n, char classes[][SIZE], float credits[])
 	printf("		%3.0f/3+ english (EF, EC, ERC, EAP)\n", credits[2]);
 	printf("		%3.1f/3  professor team meeting (0.5 per semester)\n", credits[3]);
 	printf("		%3.0f/3  community service, HGU character education\n", credits[4]);
-	pritnf("		%3.0f/6  chapel (no credits, only to show how many)\n", credits[5]);
+	printf("		%3.0f/6  chapel (no credits, only to show how many)\n", credits[5]);
 	printf("		%3.0f/18 basic science and math\n", credits[6]);
 	printf("		%3.0f/2  ICT convergence basics\n", credits[7]);
 	printf("		%3.0f/9  faith and worldviews\n", credits[8]);
