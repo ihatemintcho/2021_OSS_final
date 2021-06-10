@@ -1,6 +1,6 @@
 # 2021_OSS_final
 
-# Target User:
+# Target user:
 The intended user for this project is for HGU studends who are undergoing Engineering Education Certificate Program, more specifically In-Depth Computer Science students.
 
 # What does this project do?
@@ -23,5 +23,5 @@ This project is useful, because instead of the user adding everything up by hand
 # Where can I get more help?
 Email to 22000748@handong.edu
 
-# Youtube Link:
+# YouTube link:
 
