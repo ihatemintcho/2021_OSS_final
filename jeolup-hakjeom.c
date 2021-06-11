@@ -185,8 +185,6 @@ void delete_last_class(int *n, char classes[][SIZE], float credits[], float cred
 
 	if(*n == 0) {
 		printf("	There is no class! Please insert a new class!\n\n");
-		printf("	Press any key to continue...	");
-		getch();
 		printf("\n\n-------------------------------------------------------------\n");
 		return;
 	}
