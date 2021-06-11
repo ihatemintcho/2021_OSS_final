@@ -1,6 +1,6 @@
 # 2021_OSS_final
 
-# Target User:
+# Target user:
 The intended user for this project is for HGU studends who are undergoing Engineering Education Certificate Program, more specifically In-Depth Computer Science students.
 
 # What does this project do?
@@ -9,19 +9,23 @@ This project's goal is to report the user about how much academic credits they h
 # Why is this project useful?
 This project is useful, because instead of the user adding everything up by hand, which may be inaccurate, the program does all the calculation as long as all classes are inputted.
 
-# How do I get started?
-1. Download ZIP
-2. Unzip the file
-3. Open terminal
-4. Make sure your terminal have intalled gcc or c++ compiler:
-- If not, try $ sudo apt-get install build-essential
--  To check gcc version, $gcc -v
-5. Locate the unzipped file
-6. type in $ sudo gcc jeolup-hakjeom.c -o jeolup-hakjeom.exe
-7. run jeolup-hakjeom.exe
+# How do I get started? (on raspberrypi)
+0. Installing basic tools and cloning projects
+- $ sudo apt-get install build-essential
+- $ sudo apt-get upgrade
+- $ sudo apt-get install git
+- $ git clone https://github.com/ihatemintcho/2021_OSS_final.git
+- $ git clone https://github.com/zoelabbb/conio.h.git
+- (the first clone is the program, the second clone is for conio.h)
+- $ cd conio.h
+- $ sudo cp - f conio.h /usr/include/
+- close and reopen raspberrypi
+1. Locate and open the cloned 20201_OSS_final directory
+2. $ sudo g++ jeolup-hakjeom.c -o a.exe
+3. run a.exe
 
 # Where can I get more help?
 Email to 22000748@handong.edu
 
-# Youtube Link:
+# YouTube link:
 
