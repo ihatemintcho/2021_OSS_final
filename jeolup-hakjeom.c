@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdbool.h>
 #include <ctype.h>
-#include <conio.h>
 
 #define INSERT 1
 #define DELETE 2
@@ -166,8 +165,6 @@ void insert_class(int *n, char classes[][SIZE], float credits[], float credits_o
 	}
 
 	printf("\n	New class [%s] has been added!\n", classes[*n]);
-	printf("\n	Press any key to continue...	");
-	getch();
 	*n += 1;
 	printf("\n------------------------------------------------------------\n");
 }
@@ -213,8 +210,6 @@ void delete_last_class(int *n, char classes[][SIZE], float credits[], float cred
 		printf("	Not within set options... aborting...\n\n");
 	}
 
-	printf("	Press any key to continue...	");
-	getch();
 	printf("\n\n-------------------------------------------------------------\n");
 }
 
@@ -250,8 +245,6 @@ void show_status(int *n, char classes[][SIZE], float credits[])
 	printf("		%3.0f/12 free choice of 12 points\n", credits[10]);
 	printf("	%3.1f/130 TOTAL SUM OF CREDITS\n\n", total_sum);
 
-	printf("	Press any key to continue...	");
-	getch();
 	printf("\n\n-------------------------------------------------------------\n");
 }
 
