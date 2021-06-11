@@ -15,11 +15,6 @@ This project is useful, because instead of the user adding everything up by hand
 - $ sudo apt-get upgrade
 - $ sudo apt-get install git
 - $ git clone https://github.com/ihatemintcho/2021_OSS_final.git
-- $ git clone https://github.com/zoelabbb/conio.h.git
-- (the first clone is the program, the second clone is for conio.h)
-- $ cd conio.h
-- $ sudo cp - f conio.h /usr/include/
-- close and reopen raspberrypi
 1. Locate and open the cloned 20201_OSS_final directory
 2. $ sudo g++ jeolup-hakjeom.c -o a.exe
 3. run a.exe
